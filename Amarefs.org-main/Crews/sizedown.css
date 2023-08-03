@@ -1,0 +1,14 @@
+
+#outer-div {
+	overflow: auto;
+  position: relative;
+}
+
+#inner-div {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 30%;
+}

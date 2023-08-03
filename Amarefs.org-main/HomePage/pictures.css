@@ -1,0 +1,30 @@
+#taso_logo{
+	display: block;
+	  margin-left: left;
+	  margin-right: left;
+	  width: 50%;
+	  height: 50%;
+	padding: 30px;
+}
+
+#facebookpng {
+	display: inline-block;
+	width: 10%;
+	height: 10%;
+	padding: 5px;
+}
+
+#instagrampng {
+	display: inline-block;
+	width: 10%;
+	height: 10%;
+	padding: 5px;
+}
+
+#twitterpng {
+	display: inline-block;
+	width: 10%;
+	height: 10%;
+	padding: 5px;
+}
+
