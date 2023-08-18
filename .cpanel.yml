@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-	- export DEPLOYPATH=/home/<amarefs>/public_html
+	- export DEPLOYPATH=/home/<amarefs>/public_html/Amarefs.org-main
 	- /bin/cp -r * $DEPLOYPATH
