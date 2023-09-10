@@ -1,0 +1,18 @@
+#refpic {
+	  margin-left: left;
+	  margin-right: left;
+	  width: 50%;
+	  height: 50%;
+}
+.maintext {
+	display: flow;
+	 align-content: center;
+	  padding: 10px;
+	  background-color: navy;
+	  text-align: center;
+	 
+	  color: white;
+}
+.main-content {
+	text-align: center;
+}
