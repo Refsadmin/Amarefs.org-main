@@ -1,0 +1,88 @@
+header {
+	background-color: grey;
+	border-style: solid;
+	border-width: 3px;
+	
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.leftcontainer {
+  max-height: 100%;
+  max-width: 40%
+  
+  
+}
+
+
+
+.left-section {
+  /* display: block; */
+  width: 25vw;
+  padding: 20px;
+  height: 100vh;
+  background-color:beige;
+  background: cover;
+  border-style: solid;
+  border-width: 3px;
+  text-align: center;
+  align-content: center;
+}
+.TravelButton:hover {
+  background-color: green;
+}
+
+.TravelButton {
+	background-color: black; /* Green */
+	  border: aqua;
+	  color: gold;
+	  padding: 15px 15px;
+	  text-align: center;
+	  display: flex;
+      font-size: 1vw;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	  border-radius: 40px;
+	  max-width: 100%;
+	  max-height: 50%;
+}
+ .main-content {
+    width: 75vw;
+    height: 50vh;
+    background-color: #fff;
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    display: !important;
+    
+
+
+
+
+
+
+#webmaster {
+  color: cyan;
+}
+
+
+
+
+
+
+
+    
+  }
+
+html {
+	background-color: darkblue;
+	padding: 10px;
+}
+footer{
+	background-color: black;
+	padding: 50px;
+  align-content: center;
+  text-align: center;
+}
