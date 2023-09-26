@@ -1,5 +1,5 @@
 .headertext{
-	display: block;
+	display: grid;
 	 align-items: center; 
 	 grid-template-columns: 1fr 1fr 1fr;
 	 column-gap: 5px;
@@ -27,8 +27,8 @@
 	display: block;
 	font-size: 16px;
 	cursor: pointer;
-	width: 100vw;
-	height: 40vh;
+	width: 200px;
+	height: 40px;
 	position: absolute;
 	top: 50px;
 	right: 100px;
@@ -38,31 +38,31 @@
 	background-color: black; /* Green */
 	
 	color: white;
-	text-align: left;
+	text-align: center;
 	padding: 15px 50px;
 	display: block;
 	font-size: 16px;
 	cursor: pointer;
-	width: 50vw;
-	height: 5vh;
-	position: relative;
-	/* top: 100px;
-	right: 100px; */
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 100px;
+	right: 100px;
 }
 
 #newofficial {
 	background-color: black; /* Green */
 	
 	color: white;
-	text-align: left;
+	text-align: center;
 	padding: 15px 50px;
 	display: block;
 	font-size: 16px;
 	cursor: pointer;
-	width: 50vw;
-	height: 5vh;
-	position: relative;
-	/* top: 150px;
-	right: 100px; */
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	top: 150px;
+	right: 100px;
 }
 

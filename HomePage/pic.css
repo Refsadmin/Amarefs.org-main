@@ -1,6 +1,7 @@
 #taso_logo{
-
-	align-content: center;
+	display: block;
+	  margin-left: left;
+	  margin-right: left;
 	  width: 50%;
 	  height: 50%;
 	padding: 30px;

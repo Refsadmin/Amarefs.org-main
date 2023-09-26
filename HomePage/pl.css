@@ -1,36 +1,41 @@
 header {
 	background-color: grey;
 	border-style: solid;
-	border-width: 3px;
+	  border-width: 3px;
 	
 }
+
+footer{
+	background-color: black;
+	padding: 50px;
+  align-content: center;
+  text-align: center;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
+
 .leftcontainer {
-  max-height: 100%;
-  max-width: 40%;
-  
+  display: flex;
+  height: 700px;
   
   
 }
 
-
-
 .left-section {
-  float: left;
-  width: 15vw;
+  width: 25%;
   padding: 20px;
-  height: 100vh;
+  height: 100%;
   background-color:beige;
   background: cover;
   border-style: solid;
   border-width: 3px;
   text-align: center;
-  align-content: center;
 }
+
 .TravelButton:hover {
   background-color: green;
 }
@@ -42,19 +47,13 @@ body {
 	  padding: 15px 15px;
 	  text-align: center;
 	  display: flex;
-      font-size: 1vw;
+	  font-size: 16px;
 	  margin: 4px 2px;
 	  cursor: pointer;
 	  border-radius: 40px;
-	  max-width: 100%;
-	  max-height: 50%;
+	  width: 200px;
+	  height: 40px;
 }
-
-
-
-
-
-
 
 #webmaster {
   color: cyan;
@@ -63,25 +62,18 @@ body {
 
 
 
- .main-content {
-   display: flow;
-    width: 92vw;
-    height: 100vh;
+
+
+  .main-content {
     background-color: #fff;
+    width: 100%;
     padding: 20px;
     border-style: solid;
     border-width: 3px;
+    height: 100%;
   }
-  footer{
-	background-color: black;
-	padding: 50px;
-  align-content: center;
-  text-align: center;
-}
-
 
 html {
 	background-color: darkblue;
-	padding: 10px;
+	padding: 20px;
 }
-
