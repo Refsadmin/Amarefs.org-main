@@ -2,6 +2,7 @@ header {
   background-color: grey;
   border-style: solid;
   border-width: 3px;
+  width: 100%
   
 }
 body {
@@ -9,9 +10,12 @@ body {
   margin: 0;
   padding: 0;
 }
+#scroll{
+  display: flow;
+}
 .leftcontainer {
-  max-height: 100%;
-  max-width: 40%;
+  max-height: 40%;
+  max-width: 100%;
   
   
   
@@ -20,12 +24,11 @@ body {
 
 
 .left-section {
-  float: left;
-  width: 15vw;
+display: flow;
+  width: 95vw;
   padding: 20px;
-  height: 100vh;
+  height: 15vh;
   background-color:beige;
-  background: cover;
   border-style: solid;
   border-width: 3px;
   text-align: center;
@@ -39,9 +42,9 @@ body {
   background-color: black; /* Green */
     border: aqua;
     color: gold;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-align: center;
-    display: flex;
+    display: inline;
       font-size: 1vw;
     margin: 4px 2px;
     cursor: pointer;
@@ -64,15 +67,18 @@ body {
 
 
  .main-content {
-   display: flow;
-    width: 92vw;
-    height: 100vh;
-    background-color: #fff;
-    padding: 20px;
-    border-style: solid;
-    border-width: 3px;
+display: flow;
+ overflow: scroll;
+  width: 95vw;
+  height: 100vh;
+  background-color: #fff;
+  padding: 20px;
+  
+
+
   }
   footer{
+  position: absolute;
   background-color: black;
   padding: 50px;
   align-content: center;
